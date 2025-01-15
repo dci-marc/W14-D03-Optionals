@@ -87,11 +87,11 @@ public class Main {
             gradesMap.get('A').add(student);
             return;
           }
-          if (student.getGrade() >= 3.5) {
+          if (student.getGrade() >= 8) {
             gradesMap.get('B').add(student);
             return;
           }
-          if (student.getGrade() >= 3.0) {
+          if (student.getGrade() >= 7) {
             gradesMap.get('C').add(student);
             return;
           }
